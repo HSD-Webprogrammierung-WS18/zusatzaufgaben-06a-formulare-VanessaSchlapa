@@ -12,15 +12,13 @@ Verwenden Sie dabei wo möglich HTML5 Tags. Speichern Sie die notwendigen Icons 
 ### c) Ergänzen Sie Web-Formular um nützliche Eingabehilfen, z.B.:
 - Tastaturkürzel
 - Autofokus
-- Tabulator
-- Reihenfolge
+- Tabulator-Reihenfolge
 - Platzhaltertexte
 - Autovervollständigung
 ### d) Machen Sie an folgenden Stellen eine Vorbelegung der Eingabefelder:
 - Geschlecht: weiblich
 - Ort: Düsseldorf
-- Bundesland: Nordrhein
-- Westfalen
+- Bundesland: Nordrhein-Westfalen
 - Pizza: Margherita
 ### e) Ersetzen Sie die Auswahlliste der Pizzen um ein Eingabefeld mit Datenliste.
 
