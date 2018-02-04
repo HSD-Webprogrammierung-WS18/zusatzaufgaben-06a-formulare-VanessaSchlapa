@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+notifications:
+  webhooks:
+    urls:
+      - https://lrs.schrottfresse.de/data/xAPI/statements
+    on_success: change # default: always
+    on_failure: always # default: always
+    on_start: change   # default: always
+    on_cancel: always # default: always
+    on_error: always # default: always
