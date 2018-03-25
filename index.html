@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html>
+<head>
+
+<link rel="shortcut icon" href="icons/Icon1.png" type="image/x-icon">
+
+
+<meta http-equiv="content-language" content="de">
+<meta name="Author" content="Vanessa Schlapa">
+<meta name="Date" content="26.03.2018">
+<meta name="Country" content="Germany">
+
+</head>
+
+<body>
+<header>
+</header>
+
+<nav>	 
+</nav>
+
+<article>
+<form autocomplete="on">
+<fieldset>
+<legend>Pers&ouml;nliche Daten</legend>
+               <br>
+               <label>Nachname</label>
+               <input name="Nachname" type="text" maxlength="10" accesskey="n" tabindex="1" placeholder="Mustermann" required="required"><br><br>
+
+               <label>Vorname </label>
+               <input type="text" name="Vorname"  maxlength="10" accesskey="v" autofocus tabindex="2" placeholder="Max" required="required">
+               <br><br>
+
+               <label>Geschlecht</label> 
+                    Frau <input name="geschlecht" type="radio" checked>
+                    Herr	<input name="geschlecht" type="radio"><br><br>
+
+
+               <label>Geburtsdatum</label>
+                   <input name="Vorname" type="date" maxlength="10" accesskey="g" tabindex="3" required="required">
+</fieldset>
+
+
+           <fieldset>
+<legend>Adresse</legend>
+
+               Strasse	<input name="Strasse" type="text" maxlength="30">
+Nr.	<input name="Nr." type="text" size=2 maxlength="5"><br><br>
+               Postleitzahl<input name="Postleitzahl" type="text" size=5 maxlength="5">
+               Ort	<input name="Ort" type="text" maxlength="20" value="D&uuml;sseldorf"><br><br>
+               
+<label>Bundesland
+                   <select name="Bundesland" >
+                       <option value="Baden-Württemberg">Baden-W&uuml;ttemberg</option>
+                       <option value="Bayern">Bayern</option>
+                       <option value="Berlin">Berlin</option>
+                       <option value="Brandenburg">Brandenburg</option>
+                       <option value="Bremen">Bremen</option>
+                       <option value="Hamburg">Hamburg</option>
+                       <option value="Hessen">Hessen</option>
+                       <option value="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</option>
+                       <option value="Niedersachsen">Niedersachsen</option>
+                       <option selected value="Nordrhein-Westfalen">Nordrhein-Westfalen</option>
+                       <option value="Rheinland-Pfalz">Rheinland-Pfalz</option>
+                       <option value="Saarland">Saarland</option>
+                       <option value="Sachsen">Sachsen</option>
+                       <option valuel="Sachsen-Anhalt">Sachsen-Anhalt</option>
+                       <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                       <option value="Thüringen">Th&uuml;ringen</option>
+                   </select>
+               </label>
+           </fieldset>
+           
+           <fieldset>
+             <legend>Kontakt</legend>
+                E-mail <input name="E-mail" type="email" maxlength="25" placeholder= "Maxmustermann@gmx.de">
+                <br>
+                Telefon <input name="E-mail" type="text" maxlength="20"><br><br>
+</fieldset>
+                               
+<fieldset>
+             <legend>Bestellung</legend>
+<label>Name</label>
+               <select name="Pizza">
+                   <optgroup label="... vegetarisch">
+                     <option value="Pizza mit Knoblauch">Pizza mit Knoblauch</option>
+                     <option value="Pizza mit Pilzen">Pizza mit Pilzen</option>
+                     <option selected value="Pizza Margherita">Pizza Margherita</option>
+                   </optgroup>
+                                  
+<optgroup label="... mit Fleisch">
+                     <option value="caprriciosa">Pizza mit Schinken</option>
+                     <option value="napoli">Pizza mit Mozzarella und Basilikum</option>
+                     <option value="Salami">Pizza mit Salami</option>
+                   </optgroup>
+
+                   <optgroup label="... mit Fisch">
+                     <option value="mare">Pizza Scampi</option>
+                     <option value="tonno">Pizza Thunfisch</option>
+                     <option value="tonno">Pizza Calamari</option>                    
+                   </optgroup>
+               </select>	
+</fieldset>
+           
+<br>
+           
+<fieldset>
+            <legend>Extra</legend><br><br>
+               K&auml;se <input name="Kase" type="checkbox" value="Kase"><br><br>
+               Knoblauch <input name="Knoblauch" type="checkbox" value="Knoblauch"><br><br>
+               Doppelt belegt <input name="Doppelt belegt" type="checkbox" value="Doppelt belegt"><br><br>
+           </fieldset>
+                               
+
+       <fieldset><legend>Sonstiges</legend>
+
+           <label>Kommentar</label>
+<textarea name="comment" cols="40" rows="4" title="Hinterlassen Sie einen Kommentar. Wir freuen uns!">
+</textarea>
+
+
+       </fieldset>
+       
+<button type="image" name="send" value="send">
+<img src="icons/Icon1.png"> Abschicken
+</button>
+       
+<button type="image" name="back" value="zurück">
+<img src="icons/Icon2.png"> Abbrechen
+</button>
+
+</form>
+
+<footer>
+</footer>
+
+</body>
+</html>
